@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import '@/style/globals.css'
 import Header from '@/components/Layout/Header'
 import { GeistSans } from 'geist/font/sans';
+import Footer from '@/components/Layout/Footer';
 //import { GeistMono } from 'geist/font/mono';
 
 
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body className={GeistSans.className}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )
