@@ -16,7 +16,21 @@
   }
 }
 
+
+@layer components{
+    /* Layout Classes */
+    .page-format{
+      @apply px-[16px] md:px-[64px] 2xl:px-[128px]
+    }
+    .width-cap{
+      @apply max-w-[1920px]
+    }
+    
+  }
+
+*{-webkit-user-drag: none;}
 body {
+    position: relative;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,4 +38,15 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background-blend-mode:difference;
+}
+
+::selection {
+  color: white;
+  background-blend-mode:difference;
 }
