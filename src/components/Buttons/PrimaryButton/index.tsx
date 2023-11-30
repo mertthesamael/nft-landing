@@ -14,7 +14,7 @@ const PrimaryButton: FC<PrimaryButtonProps> = ({ type,text,onClick,variant }) =>
         ghost:'bg-white '
     }[variant]
   return (
-    <button onClick={onClick} type={type} className={`px-[24px]  transition-all rounded-[13px] font-bold text-black py-[13px] ${classVariant}`}>{text}</button>
+    <button onClick={onClick} type={type} className={`px-[24px]  transition-all rounded-[13px] lg:text-base font-bold text-black py-[13px] ${classVariant}`}>{text}</button>
   )
 }
 

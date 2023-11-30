@@ -6,7 +6,7 @@ type AttributesSectionProps = {
 }
 const AttributesSection: FC<AttributesSectionProps> = ({  }) => {
   return (
-    <section className='w-full flex justify-center page-format relative overflow-hidden py-32 items-end h-screen'>
+    <section className='w-full flex justify-center page-format relative overflow-hidden py-0 items-end h-screen'>
     <div className='flex flex-col lg:flex-row width-cap lg:items-end justify-evenly lg:justify-between  w-full h-full'>
         <div className='w-full h-[300px] relative lg:hidden flex'>
             <Image src={'/herobannermobile.png'} fill alt='Hero Banner' className='object-contain' />

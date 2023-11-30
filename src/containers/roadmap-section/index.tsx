@@ -8,8 +8,8 @@ type FaqSectionProps = {
 
 const FaqSection: FC<FaqSectionProps> = ({ }) => {
     return (
-        <section className='w-full flex justify-center page-format  py-32 min-h-screen'>
-            <div className='flex flex-col width-cap py-24 lg:py-64 relative w-full h-full'>
+        <section className='w-full flex justify-center page-format   min-h-screen'>
+            <div className='flex flex-col width-cap pb-24 lg:pb-64 relative w-full h-full'>
                 <div className='w-full flex lg:px-[21rem] justify-center h-full relative'>
                     <div className='lg:w-[951px] w-max lg:min-w-[951px] h-full flex flex-col items-center gap-[38px]'>
                         <div className='w-full flex lg:justify-start relative z-10'>
@@ -39,7 +39,7 @@ const FaqSection: FC<FaqSectionProps> = ({ }) => {
                     <div className='absolute hidden lg:flex top-[13px]'>
                         <RoadmapLines />
                     </div>
-                        <span className='bg-[#343434] lg:hidden absolute h-full w-1'/>
+                    <span className='bg-[#343434] lg:hidden absolute h-full w-1' />
                 </div>
             </div>
         </section>
