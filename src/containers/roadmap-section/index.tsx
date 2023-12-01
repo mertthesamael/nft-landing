@@ -2,14 +2,15 @@ import RoadmapCard from '@/components/Cards/RoadmapCard';
 import { RoadmapLines } from '@/components/Vectors/RoadmapLines';
 import React, { FC } from 'react'
 
-type FaqSectionProps = {
+type RoadmapSectionProps = {
 
 }
 
-const FaqSection: FC<FaqSectionProps> = ({ }) => {
+const RoadmapSection: FC<RoadmapSectionProps> = ({ }) => {
     return (
         <section className='w-full flex justify-center page-format   min-h-screen'>
-            <div className='flex flex-col width-cap pb-24 lg:pb-64 relative w-full h-full'>
+            <div className='flex flex-col width-cap text-center pb-24 lg:pb-64 relative gap-12 w-full h-full'>
+                    <h1 className='text-[52px] font-bold'>Roadmap</h1>
                 <div className='w-full flex lg:px-[21rem] justify-center h-full relative'>
                     <div className='lg:w-[951px] w-max lg:min-w-[951px] h-full flex flex-col items-center gap-[38px]'>
                         <div className='w-full flex lg:justify-start relative z-10'>
@@ -46,4 +47,4 @@ const FaqSection: FC<FaqSectionProps> = ({ }) => {
     )
 }
 
-export default FaqSection;
+export default RoadmapSection;
