@@ -1,3 +1,5 @@
+![image](https://github.com/mertthesamael/nft-landing/assets/79616834/7957369b-f700-41d7-96a5-515ef721c5b7)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
